@@ -16,7 +16,6 @@ def mostrarMatriz(matriz):
     print()
     
 def posicionAleatoria(matriz,fila,columna):
-    # print(aux)
     pos_fl=rd.randrange(0,fila,1)
     pos_cl=rd.randrange(0,columna,1)
     
@@ -25,8 +24,7 @@ def posicionAleatoria(matriz,fila,columna):
     pos_matriz[1]=pos_cl  # Columna aleatoria
     
     return pos_matriz
-    #print(pos_matriz)
-
+  
 if __name__ == "__main__":
     fila=int(input("Filas: "))
     columna=int(input("Columnas: "))
